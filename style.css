@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mid-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+/* Header Section Css Start  */
+header{
+    background-color: #000000;
+}
+.header-logo {
+    flex-basis: 30%;
+}
+.header-logo img {
+    width: 90px;
+}
+.header-menu{
+    flex-basis: 70%;
+}
+.wrapper-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.wrapper-menu li{
+    position: relative;
+}
+.wrapper-menu li::after {
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 69px;
+    left: 10px;
+}
+.wrapper-menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;
+    font-size: 18px;
+    line-height: 100px;
+    display: inline-block;
+}
+/* Header Section Css End */
+
+/* Main Section Css Start  */
+.box{
+    height: 200px;
+    width: 300px;
+    border: 1px solid green;
+}
+.main-div{
+    width: 95%;
+    margin: 60px auto 25px;
+    display: flex;
+    justify-content: space-between;
+}
+/* First Row Css Start  */
+.first-row{
+    display: flex;
+    justify-content: space-between;
+}
+.first-row-item1{
+    flex-basis: 31%;
+}
+.first-row-item2{
+    flex-basis: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-row-item3{
+    flex-basis: 31%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.first-row p {
+    background-color: red;
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+/* First Row Css End */
+/* second-row Css Start  */
+.second-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.second-row-item-1{
+    flex-basis: 26%;
+}
+.second-row-item-2{
+    flex-basis: 42%;
+}
+.second-row-item-3{
+    flex-basis: 26%;
+}
+.second-row p{
+    padding: 15px;
+}
+/* second-row Css End */
+/* Third Row CSS Start  */
+.third-row{
+    display: flex;
+    justify-content: space-between;
+}
+.third-row-item1 {
+    flex-basis: 31%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+.third-row-item1 p {
+    background: red;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid green;
+}
+.third-row-item2 {
+    flex-basis: 31%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 30px 0 0 5px;
+}
+.third-row-item2 p {
+    background: red;
+    text-align: center;
+    color: #fff;
+    padding: 4px;
+    border: 1px solid green;
+    margin-bottom: 0;
+}
+.third-row-item3 {
+    flex-basis: 31%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+}
+.third-row-item3 p {
+    background-color: red;
+    border: 1px solid green;
+    margin-bottom: 0;
+    padding: 5px;
+    color: #fff;
+}
+.third-row-item3 p.f-btn-1 {
+    align-self: flex-start;
+}
+.third-row-item3 p.f-btn-2 {
+    align-self: center;
+}
+.third-row-item3 p.f-btn-3 {
+    align-self: flex-end;
+}
+
+/* Third Row CSS End  */
+.div-left{
+    width: 70%;
+    margin: 40px 0;
+}
+.div-right{
+    width: 27%;
+    background-color: #d2d2d2;
+    padding-left: 20px;
+    border-left: 1px solid red;
+}
+.div-right h3 {
+    margin: 20px 0 15px 0;
+}
+.div-right img {
+    width: 300px;
+}
+.div-right p{
+    margin-top: 15px;
+}
+/* Main Section Css End */
+
+/* Footer Section Css Start  */
+footer{
+background-color: #000;
+}
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+.footer-menu li{
+    position: relative;
+}
+.footer-menu li::after {
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 55px;
+    left: 11px;
+}
+.footer-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 70px;
+}
+/* Footer Section Css End */
